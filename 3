@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+double ac,bc,l,a,b,c;
+cout<<"A= "; cin>>a;
+cout<<"B= "; cin>>b;
+cout<<"C= "; cin>>c;
+ac= c-a;
+bc= b-c;
+l=ac*bc;
+if (c>a&&c<b){
+cout<<"AC= "<<ac<<endl;
+cout<<"BC= "<<bc<<endl;
+cout<<"AC*BC= "<<l<<endl;} else{cout<<"Неверные данные"<<endl;}
+
+return 0;
+}
